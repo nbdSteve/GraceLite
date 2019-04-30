@@ -1,0 +1,7 @@
+name: GraceLite
+version: ${project.version}
+main: dev.nuer.gl.GraceLite
+api-version: 1.13
+authors: [Nuer]
+description: https://github.com/nbdSteve/GraceLite.git
+website: https://dev.nuer
