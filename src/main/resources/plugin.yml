@@ -4,4 +4,9 @@ main: dev.nuer.gl.GraceLite
 api-version: 1.13
 authors: [Nuer]
 description: https://github.com/nbdSteve/GraceLite.git
-website: https://dev.nuer
+website: https://nuer.dev
+commands:
+  grace:
+    usage: /<command>
+    description: Main command for GraceLite, type '/grace help' for command and permission help.
+    aliases: [sotw]

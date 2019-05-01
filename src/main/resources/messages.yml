@@ -1,0 +1,37 @@
+# GraceLite messages
+outdated-version:
+  - "&7--= &6&lGraceLite&e: &fUpdater &7=--"
+  - " - &7You are using version &fGraceLite v{currentVersion}&7, which is out of date."
+  - " - &7Please &e&l*UPDATE*&7 to the latest version, &fGraceLite+ v{latestVersion}&7."
+
+invalid-command:
+  - "&7--= &6&lGrace&e: &fCommand Debug &7=--"
+  - "&7 - The command you entered was invalid."
+  - "&7 - &e{reason}&7."
+
+help:
+  - "&6&lGrace&e: &7For detailed command and permission help, please see the GitHub wiki."
+
+reload:
+  - "&6&lGrace&e: &7You have successfully reloaded the plugins configuration files."
+
+no-permission:
+  - "&cError:&7 You do not have permission to use that."
+
+grace-countdown-query:
+  - "&6&lGrace&e: &7There are &b{days} &fdays&7, &b{hours} &fhours&7, &b{minutes} &fminutes&7, &b{seconds} &fseconds&7 of the grace period remaining."
+
+grace-complete:
+  - "&6&lGrace&e: &7The grace period has ended."
+
+grace-start:
+  - "&6&lGrace&e: &7You have &b&l*STARTED* &7the grace period, the timer will now decrease."
+
+grace-stop:
+  - "&6&lGrace&e: &7You have &b&l*STOPPED* &7the grace period, the timer is now locked."
+
+grace-toggle:
+  - "&6&lGrace&e: &7You have &b&l**TOGGLED* &7the servers grace mode to &b&l{state}&7."
+
+event-deny:
+  - "&6&lGrace&e: &7That action is not permitted while the server is in grace mode."

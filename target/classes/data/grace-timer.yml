@@ -1,0 +1,3 @@
+timer:
+  countdown-finished: false
+  time-remaining: 604800 # In seconds

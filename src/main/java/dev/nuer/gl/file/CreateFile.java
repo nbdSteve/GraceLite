@@ -34,14 +34,14 @@ public class CreateFile {
         try {
             yamlFile.load(file);
         } catch (InvalidConfigurationException e) {
-            GraceLite.LOGGER.severe("The supplied file " + fileName +
+            GraceLite.LOGGER.severe("[GraceLite] The supplied file " + fileName +
                     " is not in the correct format, please check your YAML syntax.");
         } catch (FileNotFoundException e) {
-            GraceLite.LOGGER.severe("The supplied file " + fileName +
+            GraceLite.LOGGER.severe("[GraceLite] The supplied file " + fileName +
                     " was not found, please contact the developer. Disabling the plugin.");
             GraceLite.instance.getServer().getPluginManager().disablePlugin(GraceLite.instance);
         } catch (IOException e) {
-            GraceLite.LOGGER.severe("The supplied file " + fileName +
+            GraceLite.LOGGER.severe("[GraceLite] The supplied file " + fileName +
                     " could not be loaded, please contact the developer. Disabling the plugin.");
             GraceLite.instance.getServer().getPluginManager().disablePlugin(GraceLite.instance);
         }
@@ -65,14 +65,14 @@ public class CreateFile {
         try {
             yamlFile.load(file);
         } catch (InvalidConfigurationException e) {
-            GraceLite.LOGGER.severe("The supplied file " + fileName +
+            GraceLite.LOGGER.severe("[GraceLite] The supplied file " + fileName +
                     " is not in the correct format, please check your YAML syntax.");
         } catch (FileNotFoundException e) {
-            GraceLite.LOGGER.severe("The supplied file " + fileName +
+            GraceLite.LOGGER.severe("[GraceLite] The supplied file " + fileName +
                     " was not found, please contact the developer. Disabling the plugin.");
             GraceLite.instance.getServer().getPluginManager().disablePlugin(GraceLite.instance);
         } catch (IOException e) {
-            GraceLite.LOGGER.severe("The supplied file " + fileName +
+            GraceLite.LOGGER.severe("[GraceLite] The supplied file " + fileName +
                     " could not be loaded, please contact the developer. Disabling the plugin.");
             GraceLite.instance.getServer().getPluginManager().disablePlugin(GraceLite.instance);
         }

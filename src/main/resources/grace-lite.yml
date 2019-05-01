@@ -1,0 +1,9 @@
+# GraceLite config
+version: 1.4.1
+countdown-enabled: true
+disable-wither-spawning: true
+grace-complete-broadcast:
+  - "&7 "
+  - "&e&l<*> &6&lGrace &e&l<*>"
+  - "&7The grace period has &c&l*ENDED* &7explosions will now do damage to structures."
+  - "&7 "

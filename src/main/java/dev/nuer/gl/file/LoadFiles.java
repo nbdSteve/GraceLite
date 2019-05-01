@@ -36,7 +36,7 @@ public class LoadFiles {
      */
     public YamlConfiguration get(String fileName) {
         if (files.containsKey(Files.valueOf(fileName.toUpperCase()))) {
-            files.get(Files.valueOf(fileName.toUpperCase())).get();
+            return files.get(Files.valueOf(fileName.toUpperCase())).get();
         }
         return null;
     }
