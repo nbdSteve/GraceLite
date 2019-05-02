@@ -22,7 +22,7 @@ public class WorldListener implements Listener {
     @EventHandler
     public void onPlace(BlockPlaceEvent event) {
         if (!GraceLite.doCountdown) return;
-        if (event.getPlayer().hasPermission("grace.admin")) return;
+        if (event.getPlayer().hasPermission("grace.bypass")) return;
         if (event.getBlockPlaced().getType().equals(Material.TNT)) {
             new PlayerMessage("event-deny", event.getPlayer());
             event.setCancelled(true);
@@ -33,7 +33,7 @@ public class WorldListener implements Listener {
     public void interactTNTMinecart(PlayerInteractEvent event) {
         if (!GraceLite.doCountdown) return;
         if (!event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) return;
-        if (event.getPlayer().hasPermission("grace.admin")) return;
+        if (event.getPlayer().hasPermission("grace.bypass")) return;
         if (event.getItem().getType().equals(Material.getMaterial("EXPLOSIVE_MINECART"))
                 || event.getItem().getType().equals(Material.getMaterial("TNT_MINECART"))) {
             new PlayerMessage("event-deny", event.getPlayer());
