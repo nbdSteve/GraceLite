@@ -17,7 +17,7 @@ public class QueryCmd {
      * @param sender CommandSender, person sending the command
      */
     public static void queryCountdown(CommandSender sender) {
-        if (sender.hasPermission("gracelite.use")) {
+        if (sender.hasPermission("grace.use")) {
             if (GraceLite.files.get("timer").getBoolean("timer.countdown-finished")) {
                 if (sender instanceof Player) {
                     new PlayerMessage("grace-complete", (Player) sender);
