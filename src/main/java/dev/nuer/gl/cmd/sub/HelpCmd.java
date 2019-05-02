@@ -5,8 +5,16 @@ import dev.nuer.gl.method.PlayerMessage;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+/**
+ * Class that handles the /grace help sub command
+ */
 public class HelpCmd {
 
+    /**
+     * Method for the help sub command
+     *
+     * @param sender CommandSender, the person sending the command
+     */
     public static void help(CommandSender sender) {
         if (sender.hasPermission("grace.help")) {
             if (sender instanceof Player) {

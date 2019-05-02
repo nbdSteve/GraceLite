@@ -2,7 +2,7 @@
 outdated-version:
   - "&7--= &6&lGraceLite&e: &fUpdater &7=--"
   - " - &7You are using version &fGraceLite v{currentVersion}&7, which is out of date."
-  - " - &7Please &e&l*UPDATE*&7 to the latest version, &fGraceLite+ v{latestVersion}&7."
+  - " - &7Please &e&l*UPDATE*&7 to the latest version, &fGraceLite v{latestVersion}&7."
 
 invalid-command:
   - "&7--= &6&lGrace&e: &fCommand Debug &7=--"
@@ -18,10 +18,10 @@ reload:
 no-permission:
   - "&cError:&7 You do not have permission to use that."
 
-grace-countdown-query:
+grace-countdown-query: # Message sent when the player does /grace
   - "&6&lGrace&e: &7There are &b{days} &fdays&7, &b{hours} &fhours&7, &b{minutes} &fminutes&7, &b{seconds} &fseconds&7 of the grace period remaining."
 
-grace-complete:
+grace-complete: # Message sent when the player does /grace and the grace period is over
   - "&6&lGrace&e: &7The grace period has ended."
 
 grace-start:
@@ -33,5 +33,5 @@ grace-stop:
 grace-toggle:
   - "&6&lGrace&e: &7You have &b&l**TOGGLED* &7the servers grace mode to &b&l{state}&7."
 
-event-deny:
+event-deny: # Message sent when the player tries to place tnt when the grace period is active
   - "&6&lGrace&e: &7That action is not permitted while the server is in grace mode."

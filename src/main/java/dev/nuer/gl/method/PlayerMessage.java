@@ -3,13 +3,16 @@ package dev.nuer.gl.method;
 import dev.nuer.gl.GraceLite;
 import org.bukkit.entity.Player;
 
+/**
+ * Class that handles sending a message to a player
+ */
 public class PlayerMessage {
 
     /**
      * Send a default message to the player
      *
-     * @param filePath String, internal message path
-     * @param player   Player, the player to send to
+     * @param filePath String, the internal path for the message
+     * @param player   Player, the player to send the message to
      */
     public PlayerMessage(String filePath, Player player) {
         for (String line : GraceLite.files.get("messages").getStringList(filePath)) {
@@ -17,6 +20,15 @@ public class PlayerMessage {
         }
     }
 
+    /**
+     * Sends a message to the specified player, replaces the specified placeholders with their
+     * respective replacement string
+     *
+     * @param filePath    String, the internal path for the message
+     * @param player      Player, the player to send the message to
+     * @param placeholder String, the first placeholder
+     * @param replacement String, the replacement for the first placeholder
+     */
     public PlayerMessage(String filePath, Player player,
                          String placeholder, String replacement) {
         for (String line : GraceLite.files.get("messages").getStringList(filePath)) {
@@ -24,6 +36,17 @@ public class PlayerMessage {
         }
     }
 
+    /**
+     * Sends a message to the specified player, replaces the specified placeholders with their
+     * respective replacement string
+     *
+     * @param filePath     String, the internal path for the message
+     * @param player       Player, the player to send the message to
+     * @param placeholder  String, the first placeholder
+     * @param replacement  String, the replacement for the first placeholder
+     * @param placeholder2 String, the second placeholder
+     * @param replacement2 String, the replacement for the second placeholder
+     */
     public PlayerMessage(String filePath, Player player,
                          String placeholder, String replacement,
                          String placeholder2, String replacement2) {
@@ -34,6 +57,21 @@ public class PlayerMessage {
         }
     }
 
+    /**
+     * Sends a message to the specified player, replaces the specified placeholders with their
+     * respective replacement string
+     *
+     * @param filePath     String, the internal path for the message
+     * @param player       Player, the player to send the message to
+     * @param placeholder  String, the first placeholder
+     * @param replacement  String, the replacement for the first placeholder
+     * @param placeholder2 String, the second placeholder
+     * @param replacement2 String, the replacement for the second placeholder
+     * @param placeholder3 String, the third placeholder
+     * @param replacement3 String, the replacement for the third placeholder
+     * @param placeholder4 String, the fourth placeholder
+     * @param replacement4 String, the replacement for the fourth placeholder
+     */
     public PlayerMessage(String filePath, Player player,
                          String placeholder, String replacement,
                          String placeholder2, String replacement2,

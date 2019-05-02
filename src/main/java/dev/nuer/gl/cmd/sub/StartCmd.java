@@ -5,8 +5,16 @@ import dev.nuer.gl.method.PlayerMessage;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+/**
+ * Class that handles the /grace start sub command
+ */
 public class StartCmd {
 
+    /**
+     * Method for the start sub command
+     *
+     * @param sender CommandSender, the person sending the command
+     */
     public static void startCountdown(CommandSender sender) {
         if (sender.hasPermission("grace.admin")) {
             GraceLite.files.get("config").set("countdown-enabled", true);

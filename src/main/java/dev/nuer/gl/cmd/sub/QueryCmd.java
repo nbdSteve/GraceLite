@@ -6,8 +6,16 @@ import dev.nuer.gl.method.TimeManipulation;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+/**
+ * Class that handles the /grace response command
+ */
 public class QueryCmd {
 
+    /**
+     * Method to send the sender the current grace time remaining
+     *
+     * @param sender CommandSender, person sending the command
+     */
     public static void queryCountdown(CommandSender sender) {
         if (sender.hasPermission("gracelite.use")) {
             if (GraceLite.files.get("timer").getBoolean("timer.countdown-finished")) {

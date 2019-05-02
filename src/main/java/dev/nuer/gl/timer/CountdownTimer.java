@@ -5,10 +5,16 @@ import dev.nuer.gl.method.BroadcastMessage;
 import org.bukkit.Bukkit;
 import org.bukkit.scheduler.BukkitTask;
 
+/**
+ * Class that handles decrementing the grace timer
+ */
 public class CountdownTimer {
     //Store the task id
     private BukkitTask counterTaskId;
 
+    /**
+     * Constructor to initialize the countdown timer
+     */
     public CountdownTimer() {
         //Check that the countdown is not finished
         if (GraceLite.files.get("timer").getBoolean("timer.countdown-finished")) return;
@@ -32,6 +38,11 @@ public class CountdownTimer {
         }, 0L, 20L);
     }
 
+    /**
+     * Getter for the countdown timer task id
+     *
+     * @return BukkitTask
+     */
     public BukkitTask getCounterTaskId() {
         return counterTaskId;
     }

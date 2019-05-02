@@ -5,8 +5,16 @@ import dev.nuer.gl.method.PlayerMessage;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+/**
+ * Class that handles the /grace stop sub command
+ */
 public class StopCmd {
 
+    /**
+     * Method for the stop sub command
+     *
+     * @param sender CommandSender, the person sending the command
+     */
     public static void stopCountdown(CommandSender sender) {
         if (sender.hasPermission("grace.admin")) {
             GraceLite.files.get("config").set("countdown-enabled", false);

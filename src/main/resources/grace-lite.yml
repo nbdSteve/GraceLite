@@ -1,8 +1,8 @@
 # GraceLite config
-version: 1.4.1
-countdown-enabled: true
-disable-wither-spawning: true
-grace-complete-broadcast:
+version: 1.4.1 # Plugin version, do not edit this
+countdown-enabled: false # Set this to true if you would like the grace period to start
+disable-wither-spawning: true # This will stop withers spawning, is persistent after grace is complete
+grace-complete-broadcast: # Message broadcast when the grace period has finished
   - "&7 "
   - "&e&l<*> &6&lGrace &e&l<*>"
   - "&7The grace period has &c&l*ENDED* &7explosions will now do damage to structures."
