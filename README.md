@@ -6,7 +6,7 @@ For those unfamiliar, the purpose of a grace plugin is to stop things like tnt a
 
 ---
 
-GraceLite can be downloaded from the Spigot resource page, [here](https://www.spigotmc.org/resources/gracelite-all-in-one-grace-period-plugin.56095/)
+GraceLite can be downloaded from the Spigot resource page, [here](https://www.spigotmc.org/resources/gracelite-all-in-one-grace-period-plugin.56095/).
 
 For more information about the plugin, permissions, and commands please refer to the [wiki](https://github.com/nbdSteve/GraceLite/wiki).
 
