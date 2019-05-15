@@ -1,7 +1,7 @@
 package dev.nuer.gl;
 
 import dev.nuer.gl.cmd.GraceCmd;
-import dev.nuer.gl.file.LoadFiles;
+import dev.nuer.gl.file.FileManager;
 import dev.nuer.gl.listener.WorldListener;
 import dev.nuer.gl.method.VersionChecker;
 import dev.nuer.gl.timer.CountdownTimer;
@@ -16,8 +16,6 @@ import java.util.logging.Logger;
 public final class GraceLite extends JavaPlugin {
     //Store the main plugin instance
     public static GraceLite instance;
-    //Store the plugin files
-    public static LoadFiles files;
     //Instance of the plugins logger
     public static Logger LOGGER = Bukkit.getLogger();
     //if the plugin is counting down
@@ -34,8 +32,8 @@ public final class GraceLite extends JavaPlugin {
         LOGGER.info("[GraceLite] If you find any bugs please contact nbdSteve#0583 on Discord.");
         //Set the instance variable
         instance = this;
-        //Create a new instance of plugin files
-        files = new LoadFiles();
+        //Load the plugin files
+        FileManager.load();
         //Get if the plugin should count down
         updateCountdown();
         //Create a new instance of the timer runnable
@@ -62,6 +60,6 @@ public final class GraceLite extends JavaPlugin {
      * Updates the instance countdown boolean
      */
     public static void updateCountdown() {
-        doCountdown = GraceLite.files.get("config").getBoolean("countdown-enabled");
+        doCountdown = FileManager.get("config").getBoolean("countdown-enabled");
     }
 }

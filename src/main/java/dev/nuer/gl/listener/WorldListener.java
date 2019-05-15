@@ -1,8 +1,8 @@
 package dev.nuer.gl.listener;
 
 import dev.nuer.gl.GraceLite;
+import dev.nuer.gl.file.FileManager;
 import dev.nuer.gl.method.PlayerMessage;
-import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -20,22 +20,21 @@ import org.bukkit.event.player.PlayerInteractEvent;
 public class WorldListener implements Listener {
 
     @EventHandler
-    public void onPlace(BlockPlaceEvent event) {
+    public void placeDetection(BlockPlaceEvent event) {
         if (!GraceLite.doCountdown) return;
         if (event.getPlayer().hasPermission("grace.bypass")) return;
-        if (event.getBlockPlaced().getType().equals(Material.TNT)) {
+        if (FileManager.get("config").getStringList("grace-block-blacklist").contains(event.getBlockPlaced().getType().toString().toLowerCase())) {
             new PlayerMessage("event-deny", event.getPlayer());
             event.setCancelled(true);
         }
     }
 
     @EventHandler
-    public void interactTNTMinecart(PlayerInteractEvent event) {
+    public void interactDetection(PlayerInteractEvent event) {
         if (!GraceLite.doCountdown) return;
         if (!event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) return;
         if (event.getPlayer().hasPermission("grace.bypass")) return;
-        if (event.getItem().getType().equals(Material.getMaterial("EXPLOSIVE_MINECART"))
-                || event.getItem().getType().equals(Material.getMaterial("TNT_MINECART"))) {
+        if (FileManager.get("config").getStringList("grace-interaction-blacklist").contains(event.getItem().getType().toString().toLowerCase())) {
             new PlayerMessage("event-deny", event.getPlayer());
             event.setCancelled(true);
         }
@@ -61,7 +60,7 @@ public class WorldListener implements Listener {
 
     @EventHandler
     public void createSpawn(CreatureSpawnEvent event) {
-        if (GraceLite.files.get("config").getBoolean("disable-wither-spawning")) {
+        if (FileManager.get("config").getBoolean("disable-wither-spawning")) {
             if (event.getEntity().getType().equals(EntityType.WITHER)) {
                 event.setCancelled(true);
             }

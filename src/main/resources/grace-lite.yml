@@ -1,5 +1,4 @@
-# GraceLite config
-version: 1.4.2 # Plugin version, do not edit this
+# GraceLite - if you find any bugs please contact nbdSteve#0583 on Discord.
 countdown-enabled: false # Set this to true if you would like the grace period to start
 disable-wither-spawning: true # This will stop withers spawning, is persistent after grace is complete
 grace-complete-broadcast: # Message broadcast when the grace period has finished
@@ -7,3 +6,11 @@ grace-complete-broadcast: # Message broadcast when the grace period has finished
   - "&e&l<*> &6&lGrace &e&l<*>"
   - "&7The grace period has &c&l*ENDED* &7explosions will now do damage to structures."
   - "&7 "
+#
+grace-block-blacklist: # This will block the placement of these blocks
+  - tnt
+  - dispenser
+#
+grace-interaction-blacklist: # This will block interaction with these items, these are called as place events
+  - tnt_minecart
+  - explosive_minecart

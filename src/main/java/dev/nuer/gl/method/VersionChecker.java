@@ -1,6 +1,7 @@
 package dev.nuer.gl.method;
 
 import dev.nuer.gl.GraceLite;
+import dev.nuer.gl.file.FileManager;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -19,6 +20,8 @@ import java.net.URLConnection;
 public class VersionChecker implements Listener {
     //Store the resource key from spigot
     private static String resourceKey = "56095";
+    //Store the plugins current version
+    private static String pluginVersion = "1.5.0";
 
     /**
      * Checks the latest version against the current version
@@ -29,11 +32,11 @@ public class VersionChecker implements Listener {
         try {
             URLConnection urlConn = new URL("https://api.spigotmc.org/legacy/update.php?resource=" + resourceKey).openConnection();
             String version = new BufferedReader(new InputStreamReader(urlConn.getInputStream())).readLine();
-            if (!version.equalsIgnoreCase(GraceLite.files.get("config").getString("version"))) {
+            if (!version.equalsIgnoreCase(pluginVersion)) {
                 GraceLite.LOGGER.severe("[GraceLite] There is a new version of GraceLite available for download, please update to the latest version.");
                 if (player != null) {
                     new PlayerMessage("outdated-version", player, "{currentVersion}",
-                            GraceLite.files.get("config").getString("version"), "{latestVersion}", version);
+                            pluginVersion, "{latestVersion}", version);
                 }
             }
         } catch (IOException e) {
@@ -46,7 +49,7 @@ public class VersionChecker implements Listener {
         if (event.getPlayer().isOp()) {
             Bukkit.getScheduler().runTaskLater(GraceLite.instance, () -> {
                 checkVersion(event.getPlayer());
-            }, 5L);
+            }, 7L);
         }
     }
 }

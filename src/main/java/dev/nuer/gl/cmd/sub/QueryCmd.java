@@ -1,6 +1,7 @@
 package dev.nuer.gl.cmd.sub;
 
 import dev.nuer.gl.GraceLite;
+import dev.nuer.gl.file.FileManager;
 import dev.nuer.gl.method.PlayerMessage;
 import dev.nuer.gl.method.TimeManipulation;
 import org.bukkit.command.CommandSender;
@@ -18,7 +19,7 @@ public class QueryCmd {
      */
     public static void queryCountdown(CommandSender sender) {
         if (sender.hasPermission("grace.use")) {
-            if (GraceLite.files.get("timer").getBoolean("timer.countdown-finished")) {
+            if (FileManager.get("timer").getBoolean("timer.countdown-finished")) {
                 if (sender instanceof Player) {
                     new PlayerMessage("grace-complete", (Player) sender);
                 } else {
@@ -26,7 +27,7 @@ public class QueryCmd {
                 }
             } else {
                 if (sender instanceof Player) {
-                    TimeManipulation tm = new TimeManipulation(GraceLite.files.get("timer").getInt("timer.time-remaining"));
+                    TimeManipulation tm = new TimeManipulation(FileManager.get("timer").getInt("timer.time-remaining"));
                     new PlayerMessage("grace-countdown-query", (Player) sender, "{days}", tm.getDays(),
                             "{hours}", tm.getHours(), "{minutes}", tm.getMinutes(), "{seconds}", tm.getSeconds());
                 } else {

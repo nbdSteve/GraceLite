@@ -11,7 +11,7 @@ import java.io.IOException;
 /**
  * Class that handles creating or loading a plugin file from the resources folder
  */
-public class CreateFile {
+public class PluginFile {
     //YAML configuration for the file
     private YamlConfiguration yamlFile;
     //File to be created
@@ -24,7 +24,7 @@ public class CreateFile {
      *
      * @param fileName String, the name of the file to load
      */
-    public CreateFile(String fileName) {
+    public PluginFile(String fileName) {
         this.fileName = fileName;
         this.file = new File(GraceLite.instance.getDataFolder(), fileName);
         if (!file.exists()) {

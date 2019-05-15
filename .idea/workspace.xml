@@ -4,11 +4,41 @@
     <list default="true" id="f35d9c3b-c2b9-4f03-9887-39d679268e1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/GraceLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/GraceLite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/QueryCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/QueryCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/ReloadCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/ReloadCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StartCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StartCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StopCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StopCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/ToggleCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/ToggleCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/CreateFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/PluginFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/LoadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/listener/WorldListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/listener/WorldListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/BroadcastMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/BroadcastMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/PlayerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/PlayerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/VersionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/VersionChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/timer/CountdownTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/gl/timer/CountdownTimer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/grace-lite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/grace-lite.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GraceLite-1.4.1-shaded.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GraceLite-1.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-GraceLite-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GraceLite-1.4.2-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GraceLite-1.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/GraceLite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/GraceLite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/QueryCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/QueryCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/ReloadCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/ReloadCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/StartCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/StartCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/StopCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/StopCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/ToggleCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/cmd/sub/ToggleCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/file/CreateFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/file/LoadFiles$Files.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/file/LoadFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/listener/WorldListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/listener/WorldListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/method/BroadcastMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/method/BroadcastMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/method/PlayerMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/method/PlayerMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/method/VersionChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/method/VersionChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/gl/timer/CountdownTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/gl/timer/CountdownTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grace-lite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grace-lite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-GraceLite-1.4.2.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,12 +52,27 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/listener/WorldListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="144">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/GraceLite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +80,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/grace-lite.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="360">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/VersionChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/PlayerMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +124,7 @@
       <find>ToolsPlus.getFiles()</find>
       <find>placeHolder</find>
       <find>.admin</find>
+      <find>GraceLite.files.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,27 +134,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/CreateFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/GraceLite.java" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/GraceCmd.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/LoadFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/VersionChecker.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/grace-timer.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/timer/CountdownTimer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/BroadcastMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/Chat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/PlayerMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/TimeManipulation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/ToggleCmd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StopCmd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/ReloadCmd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StartCmd.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/HelpCmd.java" />
         <option value="$PROJECT_DIR$/src/main/resources/messages.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/listener/WorldListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/QueryCmd.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/grace-lite.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/hologram/HolographicDisplaysHook.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/BroadcastMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/PlayerMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/QueryCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StartCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/ReloadCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/ToggleCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StopCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/timer/CountdownTimer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/GraceLite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/listener/WorldListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/FileManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/VersionChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/grace-lite.yml" />
       </list>
     </option>
   </component>
@@ -114,10 +186,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-144" />
-    <option name="y" value="-12" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1017" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,6 +200,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,17 +241,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gl" type="462c0819:PsiDirectoryNode" />
-              <item name="cmd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraceList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraceLite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gl" type="462c0819:PsiDirectoryNode" />
-              <item name="cmd" type="462c0819:PsiDirectoryNode" />
-              <item name="sub" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraceList" type="b2602c69:ProjectViewProjectNode" />
@@ -186,20 +249,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraceList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraceLite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,9 +314,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,7 +326,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3276414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,47 +356,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/GraceLite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1299">
-          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/CreateFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/PluginFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/LoadFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/VersionChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -367,91 +385,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/Chat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/PlayerMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/BroadcastMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/TimeManipulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
-          <folding>
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/listener/WorldListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/GraceCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/QueryCmd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StartCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -498,17 +435,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/grace-lite.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/hologram/HolographicDisplaysHook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="192">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/BroadcastMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/Chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/TimeManipulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/sub/StartCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/cmd/GraceCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1752">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/file/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/GraceLite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/VersionChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/method/PlayerMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/grace-lite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/gl/listener/WorldListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

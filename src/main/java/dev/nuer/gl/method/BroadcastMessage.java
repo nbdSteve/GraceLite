@@ -1,6 +1,7 @@
 package dev.nuer.gl.method;
 
 import dev.nuer.gl.GraceLite;
+import dev.nuer.gl.file.FileManager;
 import org.bukkit.Bukkit;
 
 /**
@@ -14,7 +15,7 @@ public class BroadcastMessage {
      * @param filePath String, the internal path for the broadcast message
      */
     public BroadcastMessage(String filePath) {
-        for (String line : GraceLite.files.get("config").getStringList(filePath)) {
+        for (String line : FileManager.get("config").getStringList(filePath)) {
             Bukkit.broadcastMessage(Chat.colorize(line));
         }
     }

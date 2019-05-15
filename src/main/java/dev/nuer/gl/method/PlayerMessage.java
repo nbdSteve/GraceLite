@@ -1,6 +1,7 @@
 package dev.nuer.gl.method;
 
 import dev.nuer.gl.GraceLite;
+import dev.nuer.gl.file.FileManager;
 import org.bukkit.entity.Player;
 
 /**
@@ -15,7 +16,7 @@ public class PlayerMessage {
      * @param player   Player, the player to send the message to
      */
     public PlayerMessage(String filePath, Player player) {
-        for (String line : GraceLite.files.get("messages").getStringList(filePath)) {
+        for (String line : FileManager.get("messages").getStringList(filePath)) {
             player.sendMessage(Chat.colorize(line));
         }
     }
@@ -31,7 +32,7 @@ public class PlayerMessage {
      */
     public PlayerMessage(String filePath, Player player,
                          String placeholder, String replacement) {
-        for (String line : GraceLite.files.get("messages").getStringList(filePath)) {
+        for (String line : FileManager.get("messages").getStringList(filePath)) {
             player.sendMessage(Chat.colorize(line).replace(placeholder, replacement));
         }
     }
@@ -50,7 +51,7 @@ public class PlayerMessage {
     public PlayerMessage(String filePath, Player player,
                          String placeholder, String replacement,
                          String placeholder2, String replacement2) {
-        for (String line : GraceLite.files.get("messages").getStringList(filePath)) {
+        for (String line : FileManager.get("messages").getStringList(filePath)) {
             player.sendMessage(Chat.colorize(line)
                     .replace(placeholder, replacement)
                     .replace(placeholder2, replacement2));
@@ -77,7 +78,7 @@ public class PlayerMessage {
                          String placeholder2, String replacement2,
                          String placeholder3, String replacement3,
                          String placeholder4, String replacement4) {
-        for (String line : GraceLite.files.get("messages").getStringList(filePath)) {
+        for (String line : FileManager.get("messages").getStringList(filePath)) {
             player.sendMessage(Chat.colorize(line)
                     .replace(placeholder, replacement)
                     .replace(placeholder2, replacement2)
